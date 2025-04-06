@@ -2,14 +2,14 @@ const express = require('express');
 const connectDB = require('./config/db');
 
 const app = express();
-const cors = require('cors');
-app.use(cors());
-app.use(
-    cors({
-      origin: ['https://your-frontend.onrender.com'],
-      credentials: true
-    })
-  );
+// const cors = require('cors');
+// app.use(cors());
+// app.use(
+//     cors({
+//       origin: ['https://devportfolio1.onrender.com'],
+//       credentials: true
+//     })
+//   );
   
 
 //  Connect Database
